@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>java9-examples</artifactId>
+        <groupId>com.sparkdigital</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+
+    <artifactId>java9-examples-jigsaw</artifactId>
+
+    <modules>
+        <module>java9-examples-jigsaw-api</module>
+        <module>java9-examples-jigsaw-mirrorer</module>
+        <module>java9-examples-jigsaw-uppercaser</module>
+        <module>java9-examples-jigsaw-gui</module>
+    </modules>
+
+</project>
